@@ -9,7 +9,6 @@
 import Foundation
 import ResearchKit
 
-
 public var SurveyTask: ORKOrderedTask {
     
     var steps = [ORKStep]()
