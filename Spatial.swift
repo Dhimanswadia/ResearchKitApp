@@ -8,7 +8,8 @@
 
 import Foundation
 import ResearchKit
-import ResearchKit
+import HealthKit
+
 public var MicrophoneTask2: ORKOrderedTask {
     return ORKOrderedTask.spatialSpanMemoryTaskWithIdentifier("Spatial", intendedUseDescription: "We will tetst your spatial Memory", initialSpan: 8, minimumSpan: 5, maximumSpan: 20, playSpeed: 2, maxTests: 3, maxConsecutiveFailures: 2, customTargetImage: nil, customTargetPluralName: "Flower", requireReversal: true, options: ORKPredefinedTaskOption.ExcludeInstructions)
 }

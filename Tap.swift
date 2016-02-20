@@ -8,6 +8,8 @@
 
 import Foundation
 import ResearchKit
+import HealthKit
+
 public var MicrophoneTask1: ORKOrderedTask {
     return ORKOrderedTask.twoFingerTappingIntervalTaskWithIdentifier("Tap", intendedUseDescription: "Tapping", duration: 10, options: ORKPredefinedTaskOption.ExcludeConclusion)
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,89 +18,102 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pd-BD-0H6">
-                                <rect key="frame" x="164" y="280" width="48" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Survey"/>
+                                <rect key="frame" x="147" y="284" width="64" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Survey">
+                                    <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="surveyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QlB-xE-igD"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="82K-eA-ugz">
-                                <rect key="frame" x="42" y="28" width="302" height="159"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="159" id="QPV-M5-q2F"/>
-                                    <constraint firstAttribute="width" constant="302" id="am5-PD-8FA"/>
-                                </constraints>
-                                <string key="text">Working in the field of medicine, it is not uncommon for physicians to work long shifts. For example, an anesthesiologist may need to work an 18-36 hour shift. What is the short term impact to the physician?
-Participate in this research to help researchers understand the impact.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VM7-lH-6nw">
-                                <rect key="frame" x="164" y="362" width="58" height="30"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="58" id="xVe-Lr-7BJ"/>
-                                </constraints>
-                                <state key="normal" title="Balance"/>
+                                <rect key="frame" x="146" y="349" width="65" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Balance">
+                                    <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="balanceTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YvO-8p-M0V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmf-hU-UCi">
-                                <rect key="frame" x="160" y="400" width="55" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Tapping"/>
-                                <connections>
-                                    <action selector="TapTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dz1-7s-Vez"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxz-TK-0mS">
-                                <rect key="frame" x="164" y="319" width="47" height="30"/>
-                                <animations/>
+                                <rect key="frame" x="146" y="317" width="65" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Spatial"/>
                                 <connections>
                                     <action selector="SpatialTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkx-ng-ObD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbs-Zy-4zc" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="158" y="226" width="58" height="30"/>
-                                <animations/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbs-Zy-4zc" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="138" y="242" width="84" height="34"/>
                                 <accessibility key="accessibilityConfiguration" label=""/>
-                                <state key="normal" title="Consent"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Consent">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="consentTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vos-R3-sUy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9s-4r-ceR">
+                                <rect key="frame" x="10" y="42" width="355" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="QMq-pd-uvF"/>
+                                </constraints>
+                                <string key="text"> Working in the field of medicine, it is not uncommon for     physicians to work long shifts. For example, an anesthesiologist may need to work an 18-36 hour shift. What is the short term impact to the physician?
+Participate in this research to help researchers understand the impact.
+</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zmf-hU-UCi">
+                                <rect key="frame" x="147" y="383" width="66" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Tapping"/>
+                                <connections>
+                                    <action selector="TapTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dz1-7s-Vez"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="82K-eA-ugz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="42" id="3Q7-QJ-o9T"/>
-                            <constraint firstItem="6Pd-BD-0H6" firstAttribute="top" secondItem="Vbs-Zy-4zc" secondAttribute="bottom" constant="8" symbolic="YES" id="5Ks-i0-fNp"/>
-                            <constraint firstAttribute="trailing" secondItem="82K-eA-ugz" secondAttribute="trailing" constant="31" id="CPP-JE-7a1"/>
-                            <constraint firstItem="VM7-lH-6nw" firstAttribute="leading" secondItem="hxz-TK-0mS" secondAttribute="leading" id="Iu3-hz-gmc"/>
-                            <constraint firstAttribute="bottom" secondItem="VM7-lH-6nw" secondAttribute="bottom" constant="275" id="Lgx-9Y-QBb"/>
-                            <constraint firstItem="VM7-lH-6nw" firstAttribute="leading" secondItem="6Pd-BD-0H6" secondAttribute="leading" id="QYD-xm-1Im"/>
-                            <constraint firstItem="VM7-lH-6nw" firstAttribute="top" secondItem="hxz-TK-0mS" secondAttribute="bottom" constant="13" id="Qrm-uL-XcG"/>
-                            <constraint firstItem="zmf-hU-UCi" firstAttribute="centerX" secondItem="hxz-TK-0mS" secondAttribute="centerX" id="Sqf-Lt-brS"/>
-                            <constraint firstItem="zmf-hU-UCi" firstAttribute="top" secondItem="VM7-lH-6nw" secondAttribute="bottom" constant="8" symbolic="YES" id="Vad-Nm-tDu"/>
-                            <constraint firstItem="82K-eA-ugz" firstAttribute="centerX" secondItem="VM7-lH-6nw" secondAttribute="centerX" id="Z96-8O-mWF"/>
-                            <constraint firstItem="zmf-hU-UCi" firstAttribute="centerX" secondItem="Vbs-Zy-4zc" secondAttribute="centerX" id="oPO-R7-BDn"/>
-                            <constraint firstItem="82K-eA-ugz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="rs8-fO-5On"/>
-                            <constraint firstItem="Vbs-Zy-4zc" firstAttribute="top" secondItem="82K-eA-ugz" secondAttribute="bottom" constant="55" id="vgE-SM-4xG"/>
+                            <constraint firstItem="hxz-TK-0mS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="146" id="0JG-J5-sh9"/>
+                            <constraint firstItem="hxz-TK-0mS" firstAttribute="top" secondItem="6Pd-BD-0H6" secondAttribute="bottom" id="1Mr-no-Zk7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zmf-hU-UCi" secondAttribute="bottom" constant="207" id="4gq-Pc-1hg"/>
+                            <constraint firstItem="c9s-4r-ceR" firstAttribute="centerX" secondItem="VM7-lH-6nw" secondAttribute="centerX" constant="9" id="6Gk-8E-jEY"/>
+                            <constraint firstAttribute="trailing" secondItem="6Pd-BD-0H6" secondAttribute="trailing" constant="163" id="7DU-2o-m74"/>
+                            <constraint firstAttribute="trailing" secondItem="6Pd-BD-0H6" secondAttribute="trailing" constant="164" id="Ac6-vd-pbn"/>
+                            <constraint firstItem="Vbs-Zy-4zc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="138" id="CPN-Ae-JOt"/>
+                            <constraint firstItem="6Pd-BD-0H6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="147" id="I9n-fK-j0a"/>
+                            <constraint firstItem="zmf-hU-UCi" firstAttribute="top" secondItem="VM7-lH-6nw" secondAttribute="bottom" constant="1" id="Imr-bT-kwV"/>
+                            <constraint firstItem="c9s-4r-ceR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="MQj-qJ-3lh"/>
+                            <constraint firstItem="Vbs-Zy-4zc" firstAttribute="top" secondItem="c9s-4r-ceR" secondAttribute="bottom" constant="37" id="NzE-Zg-Evz"/>
+                            <constraint firstItem="6Pd-BD-0H6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="164" id="W3K-ku-MCv"/>
+                            <constraint firstItem="6Pd-BD-0H6" firstAttribute="top" secondItem="Vbs-Zy-4zc" secondAttribute="bottom" constant="8" symbolic="YES" id="W6W-jh-S06"/>
+                            <constraint firstAttribute="trailing" secondItem="c9s-4r-ceR" secondAttribute="trailing" constant="10" id="Wox-WJ-lqc"/>
+                            <constraint firstAttribute="trailing" secondItem="hxz-TK-0mS" secondAttribute="trailing" constant="164" id="XZb-2N-MhO"/>
+                            <constraint firstItem="6Pd-BD-0H6" firstAttribute="leading" secondItem="VM7-lH-6nw" secondAttribute="leading" constant="1" id="c0z-XM-8oz"/>
+                            <constraint firstItem="c9s-4r-ceR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="nJ7-Jp-1BX"/>
+                            <constraint firstItem="6Pd-BD-0H6" firstAttribute="centerX" secondItem="zmf-hU-UCi" secondAttribute="centerX" constant="-1" id="qRw-fY-Q5c"/>
+                            <constraint firstAttribute="trailing" secondItem="Vbs-Zy-4zc" secondAttribute="trailing" constant="153" id="xZ8-9y-YZI"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7DU-2o-m74"/>
+                                <exclude reference="W3K-ku-MCv"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="CUS-WG-8dw"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244.5" y="315.5"/>
+            <point key="canvasLocation" x="1056.5" y="315.5"/>
         </scene>
     </scenes>
 </document>
